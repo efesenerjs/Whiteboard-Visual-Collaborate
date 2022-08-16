@@ -1,0 +1,29 @@
+{
+    "caption": "Draw Image w/ Position",
+    "doc": "Upload images on the whiteboard",
+    "fields": {
+        "ACB": {
+            "caption": "image",
+            "editor": "DynamicValue",
+            "name": "image",
+            "rank": 0,
+            "value": "image"
+        },
+        "ACC": {
+            "caption": "X Value",
+            "default_val": 60,
+            "editor": "DynamicValue",
+            "name": "viewport",
+            "rank": 1,
+            "value": "number"
+        },
+        "ACD": {
+            "caption": "Y value",
+            "default_val": 60,
+            "editor": "DynamicValue",
+            "name": "screen",
+            "rank": 2,
+            "value": "number"
+        }
+    }
+}

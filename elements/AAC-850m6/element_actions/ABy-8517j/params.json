@@ -1,0 +1,13 @@
+{
+    "caption": "Draw Image to center",
+    "doc": "Upload images on the whiteboard",
+    "fields": {
+        "ABz": {
+            "caption": "Image",
+            "editor": "DynamicValue",
+            "name": "image",
+            "rank": 0,
+            "value": "image"
+        }
+    }
+}

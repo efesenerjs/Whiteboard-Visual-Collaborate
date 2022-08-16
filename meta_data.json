@@ -1,0 +1,16 @@
+{
+    "categories": {
+        "0": "productivity",
+        "1": "technical",
+        "2": "video",
+        "3": "mobile",
+        "4": "small business"
+    },
+    "demo_page": "https://wonderfulplugins.bubbleapps.io/wonderful-whiteboard",
+    "description": "Fully functional whiteboard plugin that is easy to set up and well-documented. \n\nGreat for teams to collaborate and get their work done. \n\nThe Rockstar of your SaaS application will be Wonderful Whiteboard.\n\n● Changes you make are broadcasted to other participants within a few seconds.\n●  Create as many boards as you need.\n● Share with anyone! Invite your team mates or friends to your boards to share ideas.\n\nDEMO\n---\nhttps://wonderfulplugins.bubbleapps.io/wonderful-whiteboard\n\nDOCUMENTATION\n---\nhttps://kod-suz.notion.site/Wonderful-Whiteboard-Visual-Collaboration-74fd9916f0aa49c4baeae51a3f15c718\n\nUPGRADE YOUR APP WITH KODSUZ PRODUCTS\n---\nhttps://bubble.io/contributor/kod-suz-1507704140197x829404746415093500\n\nFOR ALL YOUR QUESTIONS\n---\nEmail: kod-suz@kod-suz.com",
+    "image": "//s3.amazonaws.com/appforest_uf/f1660380154274x881400727613176600/icons8-whiteboard-240.png",
+    "license": "private",
+    "link": "https://wonderfulplugins.bubbleapps.io/wonderful-whiteboard",
+    "name": "Wonderful Whiteboard - Visual Collaboration",
+    "plugin_instructions": "1- Draw \"Whiteboard\" element into your page\n\n2- Enter your Client ID and the board's code (documented) \n\nThat's all!\n\n\nYou can find your keys from here (You can learn how to do it in details with our document): https://www.whiteboard.team/app/panel/developers\n-You can pass client secret in Api-Key"
+}

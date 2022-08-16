@@ -1,0 +1,146 @@
+{
+    "calls": {
+        "ABT": {
+            "body": "{\n\t\"file\":{\n        \"filename\": \"<filename>\",\n        \"contents\": \"<content>\"\n    },\n    \"boardCode\": \"<boardCode>\"\n\n}\n            \n",
+            "body_params": {
+                "ABZ": {
+                    "allow_blank": true,
+                    "doc": "File name",
+                    "key": "filename",
+                    "private": true,
+                    "value": "example.jpg"
+                },
+                "ABa": {
+                    "allow_blank": true,
+                    "doc": "Image in base64 format",
+                    "key": "content",
+                    "private": true,
+                    "value": "/OAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAANCSURBVEiJtZZPbBtFFMZ/M7ubXdtdb1xSFyeilBapySVU8h8OoFaooFSqiihIVIpQBKci6KEg9Q6H9kovIHoCIVQJJCKE1ENFjnAgcaSGC6rEnxBwA04Tx43t2FnvDAfjkNibxgHxnWb2e/u992bee7tCa00YFsffekFY+nUzFtjW0LrvjRXrCDIAaPLlW0nHL0SsZtVoaF98mLrx3pdhOqLtYPHChahZcYYO7KvPFxvRl5XPp1sN3adWiD1ZAqD6XYK1b/dvE5IWryTt2udLFedwc1+9kLp+vbbpoDh+6TklxBeAi9TL0taeWpdmZzQDry0AcO+jQ12RyohqqoYoo8RDwJrU+qXkjWtfi8Xxt58BdQuwQs9qC/afLwCw8tnQbqYAPsgxE1S6F3EAIXux2oQFKm0ihMsOF71dHYx+f3NND68ghCu1YIoePPQN1pGRABkJ6Bus96CutRZMydTl+TvuiRW1m3n0eDl0vRPcEysqdXn+jsQPsrHMquGeXEaY4Yk4wxWcY5V/9scqOMOVUFthatyTy8QyqwZ+kDURKoMWxNKr2EeqVKcTNOajqKoBgOE28U4tdQl5p5bwCw7BWquaZSzAPlwjlithJtp3pTImSqQRrb2Z8PHGigD4RZuNX6JYj6wj7O4TFLbCO/Mn/m8R+h6rYSUb3ekokRY6f/YukArN979jcW+V/S8g0eT/N3VN3kTqWbQ428m9/8k0P/1aIhF36PccEl6EhOcAUCrXKZXXWS3XKd2vc/TRBG9O5ELC17MmWubD2nKhUKZa26Ba2+D3P+4/MNCFwg59oWVeYhkzgN/JDR8deKBoD7Y+ljEjGZ0sosXVTvbc6RHirr2reNy1OXd6pJsQ+gqjk8VWFYmHrwBzW/n+uMPFiRwHB2I7ih8ciHFxIkd/3Omk5tCDV1t+2nNu5sxxpDFNx+huNhVT3/zMDz8usXC3ddaHBj1GHj/As08fwTS7Kt1HBTmyN29vdwAw+/wbwLVOJ3uAD1wi/dUH7Qei66PfyuRj4Ik9is+hglfbkbfR3cnZm7chlUWLdwmprtCohX4HUtlOcQjLYCu+fzGJH2QRKvP3UNz8bWk1qMxjGTOMThZ3kvgLI5AzFfo379UAAAAASUVORK5CYII="
+                },
+                "ABs": {
+                    "allow_blank": true,
+                    "key": "boardCode",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "doc_link": "https://www.whiteboard.team/documents/api",
+            "headers": {
+                "ABX": {
+                    "key": "Content-Type",
+                    "private": true,
+                    "value": "application/json",
+                    "visibility": "hidden"
+                }
+            },
+            "initialized": true,
+            "method": "post",
+            "name": "Save File",
+            "publish_as": "action",
+            "rank": 0,
+            "ret_value": "api.1660058472276x594461547686527000.plugin_api.ABT",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ABT\":{\"caption\":\"Save File\",\"fields\":{\"_p_status\":{\"ret_value\":\"image\",\"caption\":\"status\",\"sample_value\":\"success\",\"path\":[\"status\"]}}}}",
+            "url": "[Website Home URL]api/1.1/wf/[Endpoint Name]",
+            "url_params": {
+                "ABU": {
+                    "key": "Website Home URL",
+                    "private": true,
+                    "value": ""
+                },
+                "ABV": {
+                    "doc": "",
+                    "key": "Endpoint Name",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "ACF": {
+            "headers": {
+                "0": {
+                    "doc": "Your Client Secret Key",
+                    "key": "Api-Key",
+                    "visibility": "secret"
+                }
+            },
+            "initialized": true,
+            "method": "get",
+            "name": "Get All Boards",
+            "publish_as": "data",
+            "rank": 1,
+            "ret_value": "api.1660058472276x594461547686527000.plugin_api.ACF",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.ACF\":{\"caption\":\"Get All Board\",\"fields\":{\"_p_data\":{\"ret_value\":\"list.api.1660058472276x594461547686527000.plugin_api.ACF.data\",\"caption\":\"data\",\"path\":[\"data\"]},\"_p_totalCount\":{\"ret_value\":\"number\",\"caption\":\"totalCount\",\"sample_value\":10,\"path\":[\"totalCount\"]}}},\"plugin_api.ACF.data\":{\"caption\":\"Get All Boards data\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"e02d43ff-f565-4a94-a6bf-a0714b2fbc82\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"Unnamed board\",\"path\":[\"name\"]},\"_p_code\":{\"ret_value\":\"text\",\"caption\":\"code\",\"sample_value\":\"rarararerere321\",\"path\":[\"code\"]},\"_p_createdDate\":{\"ret_value\":\"date\",\"caption\":\"createdDate\",\"sample_value\":\"2022-08-09T15:25:34.695+00:00\",\"path\":[\"createdDate\"]},\"_p_lastUse\":{\"ret_value\":\"date\",\"caption\":\"lastUse\",\"sample_value\":\"2022-08-09T15:53:10.533+00:00\",\"path\":[\"lastUse\"]},\"_p_lastChange\":{\"ret_value\":\"date\",\"caption\":\"lastChange\",\"sample_value\":\"2022-08-09T15:52:25.862+00:00\",\"path\":[\"lastChange\"]},\"_p_shareType\":{\"ret_value\":\"_ignore\"}}}}",
+            "url": "https://www.whiteboard.team/api/v1/boards?timestamp=[Random Number]",
+            "url_params": {
+                "ACN": {
+                    "doc": "To be able to run the API Call repeatedly without refreshing the page, assign a random value here and have this random value change each time the call runs. You can use the expression \"Calculate formula\" for this.",
+                    "key": "Random Number",
+                    "private": true,
+                    "value": "15348"
+                }
+            }
+        },
+        "ACG": {
+            "headers": {
+                "0": {
+                    "doc": "Your Client Secret Key",
+                    "key": "Api-Key",
+                    "visibility": "secret"
+                }
+            },
+            "initialized": true,
+            "method": "get",
+            "name": "Get Board Details",
+            "publish_as": "data",
+            "rank": 2,
+            "ret_value": "api.1660058472276x594461547686527000.plugin_api.ACG",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ACG\":{\"caption\":\"Get Board Detail\",\"fields\":{\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"Unnamed board\",\"path\":[\"name\"]},\"_p_code\":{\"ret_value\":\"text\",\"caption\":\"code\",\"sample_value\":\"kNjk3h3j1nn2kikomo24\",\"path\":[\"code\"]},\"_p_createdDate\":{\"ret_value\":\"date\",\"caption\":\"createdDate\",\"sample_value\":\"2022-08-13T12:08:52.053+00:00\",\"path\":[\"createdDate\"]},\"_p_lastUse\":{\"ret_value\":\"date\",\"caption\":\"lastUse\",\"sample_value\":\"2022-08-13T12:29:16.129+00:00\",\"path\":[\"lastUse\"]},\"_p_lastChange\":{\"ret_value\":\"date\",\"caption\":\"lastChange\",\"sample_value\":\"2022-08-13T12:13:21.872+00:00\",\"path\":[\"lastChange\"]},\"_p_shareType\":{\"ret_value\":\"number\",\"caption\":\"shareType\",\"sample_value\":1,\"path\":[\"shareType\"]},\"_p_members\":{\"ret_value\":\"list.api.1660058472276x594461547686527000.plugin_api.ACG.members\",\"caption\":\"members\",\"path\":[\"members\"]}}},\"plugin_api.ACG.members\":{\"caption\":\"Get Board Details member\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"d331a75d-a27b-4987-99ee-45ba00e4cc73\",\"path\":[\"id\"]},\"_p_joinedDate\":{\"ret_value\":\"text\",\"caption\":\"joinedDate\",\"sample_value\":\"2022-08-13T12:08:52.055+00:00\",\"path\":[\"joinedDate\"]},\"_p_isActive\":{\"ret_value\":\"boolean\",\"caption\":\"isActive\",\"sample_value\":true,\"path\":[\"isActive\"]},\"_p_role\":{\"ret_value\":\"text\",\"caption\":\"role\",\"sample_value\":\"Editor\",\"path\":[\"role\"]}}}}",
+            "url": "https://www.whiteboard.team/api/v1/boards/[Board ID]?timestamp=[Random Number]",
+            "url_params": {
+                "ACH": {
+                    "doc": "You can use \"Get All Boards\" API Call to get ID of your boards",
+                    "key": "Board ID",
+                    "private": true,
+                    "value": "",
+                    "visibility": "public"
+                },
+                "ACO": {
+                    "doc": "To be able to run the API Call repeatedly without refreshing the page, assign a random value here and have this random value change each time the call runs. You can use the expression \"Calculate formula\" for this.",
+                    "key": "Random Number",
+                    "private": true,
+                    "value": "15351"
+                }
+            }
+        },
+        "ACI": {
+            "data_type": "empty",
+            "headers": {
+                "0": {
+                    "key": "Api-Key",
+                    "visibility": "secret"
+                }
+            },
+            "initialized": true,
+            "method": "delete_method",
+            "name": "Delete A Board",
+            "no_types": true,
+            "publish_as": "action",
+            "rank": 3,
+            "should_reinitialize": true,
+            "url": "https://www.whiteboard.team/api/v1/boards/[Board ID]",
+            "url_params": {
+                "ACJ": {
+                    "doc": "You can use \"Get All Boards\" API Call to get ID of your boards",
+                    "key": "Board ID",
+                    "private": true,
+                    "value": "",
+                    "visibility": "public"
+                }
+            }
+        }
+    },
+    "human": "Wonderful Whiteboard"
+}
